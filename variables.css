@@ -4,19 +4,4 @@
     --secondary-color: #00CC00;
     --font-pixel: 'Press Start 2P', cursive;
     --font-mono: 'VT323', monospace;
-
-    --name: Amin Rostami;
-    --job-title: "Software Craftsman";
-}
-
-[data-theme="dark"] {
-    --background-color: black;
-    --primary-color: #00FF00;
-    --secondary-color: #00CC00;
-}
-
-[data-theme="light"] {
-    --background-color: white;
-    --primary-color: black;
-    --secondary-color: grey;
 }
