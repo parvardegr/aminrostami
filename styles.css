@@ -103,31 +103,31 @@ h2 {
     margin: 30px auto;
 }
 .contact-info a {
-    margin: 0 20px;
+    margin: 20px 20px;
     font-size: 2.5rem;
     color: var(--primary-color);
     text-decoration: none;
 }
 .contact-info a:link {
-    margin: 0 20px;
+    margin: 20px 20px;
     font-size: 2.5rem;
     color: var(--primary-color);
     text-decoration: none;
 }
 .contact-info a:visited {
-    margin: 0 20px;
+    margin: 20px 20px;
     font-size: 2.5rem;
     color: var(--primary-color);
     text-decoration: none;
 }
 .contact-info a:hover {
-    margin: 0 20px;
+    margin: 20px 20px;
     font-size: 2.5rem;
     color: var(--primary-color);
     text-decoration: none;
 }
 .contact-info a:active {
-    margin: 0 20px;
+    margin: 20px 20px;
     font-size: 2.5rem;
     color: var(--primary-color);
     text-decoration: none;
@@ -206,6 +206,15 @@ button:hover {
 footer {
     border-top: solid;
     padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-size: larger;
+    color: var(--primary-color);
+    margin: 0 15px;
 }
 
 /* Responsive Design */
@@ -293,5 +302,9 @@ footer {
         display: grid;
         grid-template-columns: auto;
         justify-content: space-evenly;
+    }
+
+    .contact-info {
+        flex-flow: column;
     }
 }
