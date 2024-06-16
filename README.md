@@ -1,4 +1,5 @@
-# Simple Personal Branding for A Software Craftsman
+# 420Tech
+420tech official website
 
 ## How To Use
 1. Fork this reposittory
